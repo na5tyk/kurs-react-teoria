@@ -1,10 +1,11 @@
 import React from 'react';
-import Clock from './components/Clock';
+import HandleEvent from './components/HandleEvent';
 
 function App() {
   return (
     <div>
-      <Clock />
+      Obsługa zdarzeń
+      <HandleEvent />
     </div>
   );
 }
