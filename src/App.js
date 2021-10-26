@@ -1,11 +1,10 @@
 import React from 'react';
-import HandleEvent from './components/HandleEvent';
+import Table from './components/Table';
 
 function App() {
   return (
     <div>
-      Obsługa zdarzeń
-      <HandleEvent />
+      <Table />
     </div>
   );
 }
